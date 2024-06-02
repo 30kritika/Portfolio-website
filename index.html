@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+        <title>Kritika Baghel portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/27fbc6a283.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer <span>|</span>Python Developer <span>|</span>Cybersecurity beginner</p>
+                <h1>Hi, I'm <br><span>Kritika</span> Baghel | 20 </h1>
+            </div>
+        </div>
+    </div>
+<!-----about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.gif" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A skilled technologist with expertise in front-end programming, graphic
+                        design, and cybersecurity, excels in creating visually captivating digital
+                        experiences. Proficient in JavaScript, CSS, and HTML, I can develop
+                        responsive websites while ensuring cross-browser compatibility and online
+                        accessibility. Dedicated to network security, encryption, and vulnerability
+                        assessment, I am currently pursuing further education in cybersecurity.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end development</span><br>Web app development</li>
+                            <li><span>Python</span><br>Python development</li>
+                            <li><span>Cybersecurity</span><br>Beginner</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021- Current</span><br>Manav Rachna University | B.Tech. CSE</li>
+                            <li><span>2020-2021</span><br>Senior Secondary Education</li>
+                            <li><span>2018-2019</span><br>Secondary Education</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Front End development</h2>
+                    <p>As a front-end app developer, I am committed towards leveraging web technologies 
+                        in designing appealing interfaces with interactive features. I have a fair experience
+                         in creating websites that are compatible with different devices such as PC, tablets,
+                          and smartphones, as well as, designing the graphical user interface (GUI). </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Development</h2>
+                    <p>I use my intermediate knowledge of Python to create safe and intuitive applications. Using 
+                        frameworks, I can write custom scripts to develop web applications, automate tasks, 
+                        nd analyze data. Building password managers with strong encryption and using 
+                        cryptography libraries to handle data securely are two examples of my experience. I understand 
+                        the fundamentals of Python well, and I'm excited to take on new challenges to develop my skills even further.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <h2>Cybersecurity</h2>
+                    <p>As a cybersecurity beginner, I possess a strong foundation in the fundamentals of cybersecurity, 
+                        encompassing attack types, malware, hacker classifications, and networking principles. 
+                        My understanding extends to prominent models like TCP/IP and OSI, solidifying my knowledge 
+                        in this domain. I am eager to contribute my skills and passion to your organization. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Netflix Clone website</h3>
+                        <p>Created a website resembling Netflix, showcasing web programming skills. Utilized HTML, CSS, JavaScript, 
+                            and search tools to create a user-friendly browsing interface.</p>
+                        <a href="https://github.com/30kritika/Netflix-clone-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Password Manager</h3>
+                        <p>Python password manager prioritizes user security with strong encryption, safe storage, and a master password, 
+                            showcasing cybersecurity skills and Python programming aptitude.</p>
+                        <a href="https://github.com/30kritika/Password-Manager"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Website Vulnerability Scanner</h3>
+                        <p>Created a Python website vulnerability scanner to identify common vulnerabilities like SQL injection and XSS, 
+                            using penetration testing and cybersecurity concepts, demonstrating understanding of cybersecurity risks and developing countermeasures.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 039493995</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kritika-baghel-34957a24b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/30kritika"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/_yaarkriichup"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/resume1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <span id="msg"></span>
+                    </form>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Kritika. Made with 💚 by Kritika Baghel</p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }  
+            for(tabcontents of tabcontents){
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzazuPtTQ1ITES0X_X2yMfNQcXsChWfJecNFW40JiLsH8Hjukz6louYNonqoyloZh5Kig/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully!!"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
